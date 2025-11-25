@@ -1,0 +1,7 @@
+title: "My Portfolio"
+baseurl: ""
+url: ""
+
+# Optional: configure markdown and permalink
+markdown: kramdown
+permalink: pretty
