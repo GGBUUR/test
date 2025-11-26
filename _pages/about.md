@@ -12,7 +12,7 @@ permalink: /test/about/
         </div>
         <div class="nav-menu">
             <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
-            <a href="{{ '/about/' | relative_url }}" class="nav-link active">About</a>
+            <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
             <a href="{{ '/projects/' | relative_url }}" class="nav-link">Projects</a>
             <a href="{{ '/contact/' | relative_url }}" class="nav-link">Contact</a>
         </div>

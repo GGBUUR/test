@@ -6,7 +6,7 @@
     "description": "A responsive portfolio website showcasing projects and skills",
     "repository": {
       "type": "git",
-      "url": "https://github.com/yourusername/mysite"
+      "url": "https://github.com/GGBUUR/test"
     },
     "pages": [
       {
@@ -16,32 +16,31 @@
       },
       {
         "name": "About",
-        "file": "pages/about.html",
+        "file": "about.html",
         "description": "Background, qualifications, and skills"
       },
       {
         "name": "Projects",
-        "file": "pages/projects.html",
+        "file": "projects.html",
         "description": "Portfolio of projects with descriptions"
       },
       {
         "name": "Resume",
-        "file": "pages/resume.html",
+        "file": "resume.html",
         "description": "Professional resume and experience"
       },
       {
         "name": "Contact",
-        "file": "pages/contact.html",
+        "file": "contact.html",
         "description": "Contact form and social connections"
       }
     ],
     "personalInfo": {
-      "fullName": "Your Name",
+      "fullName": "Rasul Huseynli",
       "title": "Full Stack Developer",
-      "email": "your.email@example.com",
-      "phone": "+1 (234) 567-890",
-      "location": "Your City, Your Country",
-      "profileImage": "assets/images/profile.jpg"
+      "email": "rasulgusik@gmail.com",
+      "location": "Baku, Azerbaijan",
+      "profileImage": "assets/profile.jpg"
     },
     "socialLinks": {
       "github": "https://github.com/yourusername",
@@ -54,7 +53,7 @@
         "id": 1,
         "title": "Project 1: Your Project Title",
         "description": "Brief description of your first project",
-        "image": "assets/images/projects/project1.jpg",
+        "image": "assets/project1.jpg",
         "technologies": ["HTML/CSS", "JavaScript", "Responsive"],
         "github": "#",
         "liveDemo": "#"

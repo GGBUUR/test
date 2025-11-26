@@ -33,19 +33,20 @@ document.addEventListener('click', (e) => {
 // ACTIVE NAV LINK HIGHLIGHTING
 // =====================================================
 
-function updateActiveLink() {
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    
+document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const currentURL = window.location.href;
+
     navLinks.forEach(link => {
         link.classList.remove('active');
-        const href = link.getAttribute('href');
-        if (href.endsWith(currentPage) || (currentPage === '' && href.endsWith('index.html'))) {
+
+        // Если текущий URL содержит ссылку — подсветить
+        if (currentURL.includes(link.href)) {
             link.classList.add('active');
         }
     });
-}
+});
 
-updateActiveLink();
 
 // =====================================================
 // SMOOTH SCROLLING

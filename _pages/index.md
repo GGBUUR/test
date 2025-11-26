@@ -11,7 +11,7 @@ permalink: /test
             <a href="{{ '/test/' | relative_url }}">Rasul Huseynli</a>
         </div>
         <div class="nav-menu">
-            <a href="{{ '/test/' | relative_url }}" class="nav-link active">Home</a>
+            <a href="{{ '/test/' | relative_url }}" class="nav-link">Home</a>
             <a href="{{ '/test/about/' | relative_url }}" class="nav-link">About</a>
             <a href="{{ '/test/projects/' | relative_url }}" class="nav-link">Projects</a>
             <a href="{{ '/test/contact/' | relative_url }}" class="nav-link">Contact</a>
