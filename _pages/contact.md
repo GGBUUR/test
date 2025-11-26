@@ -8,13 +8,13 @@ permalink: /contact/
 <nav class="navbar">
     <div class="navbar-container">
         <div class="logo">
-            <a href="/">Rasul Huseynli</a>
+            <a href="{{ '/' | relative_url }}">Rasul Huseynli</a>
         </div>
         <div class="nav-menu">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/about/" class="nav-link">About</a>
-            <a href="/projects/" class="nav-link">Projects</a>
-            <a href="/contact/" class="nav-link active">Contact</a>
+            <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+            <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
+            <a href="{{ '/projects/' | relative_url }}" class="nav-link">Projects</a>
+            <a href="{{ '/contact/' | relative_url }}" class="nav-link active">Contact</a>
         </div>
         <div class="hamburger">
             <span></span>
@@ -77,10 +77,10 @@ permalink: /contact/
             <div class="footer-section">
                 <h4>Links</h4>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/projects/">Projects</a></li>
-                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+                    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">

@@ -8,13 +8,13 @@ permalink: /
 <nav class="navbar">
     <div class="navbar-container">
         <div class="logo">
-            <a href="/">Rasul Huseynli</a>
+            <a href="{{ '/' | relative_url }}">Rasul Huseynli</a>
         </div>
         <div class="nav-menu">
-            <a href="/" class="nav-link active">Home</a>
-            <a href="/about/" class="nav-link">About</a>
-            <a href="/projects/" class="nav-link">Projects</a>
-            <a href="/contact/" class="nav-link">Contact</a>
+            <a href="{{ '/' | relative_url }}" class="nav-link active">Home</a>
+            <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
+            <a href="{{ '/projects/' | relative_url }}" class="nav-link">Projects</a>
+            <a href="{{ '/contact/' | relative_url }}" class="nav-link">Contact</a>
         </div>
     </div>
 </nav>
@@ -23,7 +23,7 @@ permalink: /
 <section class="home-section">
     <div class="home-container">
         <div class="profile-photo">
-            <img src="/assets/images/profile.jpg" alt="Profile Photo" class="profile-img">
+            <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Photo" class="profile-img">
         </div>
         <div class="home-content">
             <h1>Welcome to My Portfolio</h1>
@@ -44,8 +44,8 @@ permalink: /
                 </a>
             </div>
             <div class="cta-buttons">
-                    <a href="/projects/" class="btn btn-primary">View My Work</a>
-                    <a href="/contact/" class="btn btn-secondary">Get in Touch</a>
+                    <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">View My Work</a>
+                    <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Get in Touch</a>
             </div>
         </div>
     </div>
@@ -58,12 +58,12 @@ permalink: /
         <div class="featured-grid">
             <div class="featured-card">
                 <div class="card-image">
-                    <img src="/assets/images/projects/project1.jpg" alt="Project 1">
+                    <img src="{{ '/assets/images/projects/project1.jpg' | relative_url }}" alt="Project 1">
                 </div>
                 <div class="card-content">
                     <h3>Project 1</h3>
                     <p>A showcase of my development skills and creativity.</p>
-                    <a href="/projects/" class="card-link">View Details →</a>
+                    <a href="{{ '/projects/' | relative_url }}" class="card-link">View Details →</a>
                 </div>
             </div>
         </div>
@@ -81,10 +81,10 @@ permalink: /
             <div class="footer-section">
                 <h4>Links</h4>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/projects/">Projects</a></li>
-                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+                    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
