@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Portfolio - Home"
-permalink: /
+permalink: /test
 ---
 
 <!-- Navigation -->
@@ -23,7 +23,7 @@ permalink: /
 <section class="home-section">
     <div class="home-container">
         <div class="profile-photo">
-            <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Photo" class="profile-img">
+            <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile Photo" class="profile-img">
         </div>
         <div class="home-content">
             <h1>Welcome to My Portfolio</h1>
@@ -58,7 +58,7 @@ permalink: /
         <div class="featured-grid">
             <div class="featured-card">
                 <div class="card-image">
-                    <img src="{{ '/assets/images/projects/project1.jpg' | relative_url }}" alt="Project 1">
+                    <img src="{{ '/assets/project1.jpg' | relative_url }}" alt="Project 1">
                 </div>
                 <div class="card-content">
                     <h3>Project 1</h3>
