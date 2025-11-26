@@ -2,7 +2,7 @@ title: "My Portfolio"
 description: "Full Stack Developer Portfolio"
 author: "Rasul Huseynli"
 baseurl: "/test"
-url: "https://GGBUUR.github.io"
+url: "https://GGBUUR.github.io/test"
 
 # GitHub Pages settings
 remote_theme: null
