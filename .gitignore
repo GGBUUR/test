@@ -4,7 +4,7 @@
 *.swp
 *.swo
 *~
-
+_site/
 # OS Files
 .DS_Store
 Thumbs.db

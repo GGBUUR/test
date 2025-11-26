@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-A responsive, modern portfolio website showcasing projects, skills, and experience.
+A responsive, modern portfolio website built with Jekyll and hosted on GitHub Pages.
 
 ## 📋 Features
 
@@ -9,70 +9,122 @@ A responsive, modern portfolio website showcasing projects, skills, and experien
 - **Projects Page** - Portfolio of projects with descriptions and links
 - **Contact Page** - Contact form and social media connections
 - **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
-- **Navigation Bar** - Sticky navigation with hamburger menu for mobile
-- **Footer** - Complete footer with links and social connections
+- **Jekyll Integration** - Powered by Jekyll for static site generation
+- **GitHub Pages Ready** - Deploy directly to GitHub Pages
 - **Clean Code** - Well-organized, modular structure
 
 ## 📁 Project Structure
 
 ```
-mysite/
-├── index.html                 # Home page
-├── pages/
-│   ├── about.html            # About page
-│   ├── projects.html         # Projects page
-│   └── contact.html          # Contact page
-├── css/
-│   └── style.css             # Main stylesheet with responsive design
-├── js/
-│   └── script.js             # JavaScript for interactivity
+portfolio/
+├── _config.yml               # Jekyll configuration
+├── _layouts/
+│   ├── default.html         # Default page layout
+│   └── home.html            # Home page layout
+├── _pages/
+│   ├── index.md             # Home page (Markdown)
+│   ├── about.md             # About page (Markdown)
+│   ├── projects.md          # Projects page (Markdown)
+│   └── contact.md           # Contact page (Markdown)
 ├── assets/
+│   ├── css/
+│   │   └── style.css        # Main stylesheet
+│   ├── js/
+│   │   └── script.js        # JavaScript for interactivity
 │   └── images/
-│       ├── profile.jpg       # Profile photo (place your image here)
-│       └── projects/
-│           ├── project1.jpg  # Project screenshots (place your images here)
-│           ├── project2.jpg
-│           └── project3.jpg
-└── README.md                 # This file
+│       ├── profile.jpg      # Profile photo
+│       └── projects/        # Project screenshots
+├── Gemfile                  # Ruby dependencies
+└── README.md               # This file
+```
+
+## 🚀 Getting Started Locally
+
+### Prerequisites
+- Ruby 2.7 or higher
+- Git
+
+### Installation
+
+1. **Clone or download the repository**
+   ```bash
+   git clone https://github.com/GGBUUR/test.git
+   cd test
+   ```
+
+2. **Install dependencies**
+   ```bash
+   bundle install
+   ```
+
+3. **Run Jekyll locally**
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. **View your site**
+   Open your browser and go to: `http://localhost:4000`
+
+## 📦 Deploy to GitHub Pages
+
+### Method 1: Automatic Deployment (Recommended)
+
+1. Push your code to GitHub:
+   ```bash
+   git add .
+   git commit -m "Initial Jekyll setup"
+   git push origin main
+   ```
+
+2. Go to your repository settings → Pages
+3. Select `main` branch as source
+4. GitHub will automatically build and deploy your site
+
+### Method 2: Manual Build
+
+```bash
+bundle exec jekyll build
+# The `_site` folder contains your static site
 ```
 
 ## 🎨 Customization
 
-### Colors
-
-:root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
-    --accent-color: #f093fb;
-    /* ... more colors ... */
-}
+### Edit Site Settings
+Update `_config.yml` with your information:
+```yaml
+title: "My Portfolio"
+author: "Your Name"
+url: "https://yourusername.github.io/test"
 ```
 
+### Edit Page Content
+All pages are in `_pages/` folder as Markdown files:
+- `index.md` - Home page
+- `about.md` - About page
+- `projects.md` - Projects page
+- `contact.md` - Contact page
 
-## 📱 Responsive Breakpoints
+### Customize Styles
+Edit `assets/css/style.css` to change colors, fonts, and layout.
 
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
-
-## ✨ Features Included
-
-- ✅ Sticky navigation bar with mobile menu
-- ✅ Profile section with social links
-- ✅ Skill progress bars
-- ✅ Project cards with hover effects
-- ✅ Contact form with validation
-- ✅ Smooth scrolling
-- ✅ Scroll-to-top button
-- ✅ Intersection Observer animations
-- ✅ Mobile hamburger menu
-- ✅ Font Awesome icons
-- ✅ Gradient backgrounds
-- ✅ Professional styling
+### Add Images
+Place images in `assets/images/` and reference them in your pages:
+```markdown
+![Alt text](/assets/images/your-image.jpg)
+```
 
 ## 🔗 Resources Used
 
+- [Jekyll Documentation](https://jekyllrb.com/)
+- [GitHub Pages with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 - [Font Awesome 6](https://fontawesome.com/) - Icons
-- [Google Fonts](https://fonts.google.com/) - Typography
-- Modern CSS with CSS Variables
-- Vanilla JavaScript (no dependencies)
+- [Kramdown](https://kramdown.gettalong.org/) - Markdown processor
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👨‍💻 About
+
+Created by Rasul Huseynli - [GitHub](https://github.com/GGBUUR)
+

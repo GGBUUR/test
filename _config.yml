@@ -1,7 +1,45 @@
 title: "My Portfolio"
+description: "Full Stack Developer Portfolio"
+author: "Rasul Huseynli"
 baseurl: ""
-url: ""
+url: "https://GGBUUR.github.io/test"
 
-# Optional: configure markdown and permalink
+# GitHub Pages settings
+remote_theme: null
+theme: null
+
+# Jekyll build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 permalink: pretty
+excerpt_separator: <!--more-->
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - .git
