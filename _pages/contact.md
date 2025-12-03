@@ -43,7 +43,7 @@ permalink: /test/contact/
                     <i class="fas fa-map-marker-alt"></i>
                     <div>
                         <h3>ADA university</h3>
-                        <p>Baku, Your Country</p>
+                        <p>Baku, Azerbaijan</p>
                     </div>
                 </div>
 
