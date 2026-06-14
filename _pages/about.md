@@ -33,16 +33,12 @@ permalink: /test/about/
             <div class="about-text">
                 <h2>Who I Am</h2>
                 <p>
-                    Hello! I'm an IT student and aspiring developer with a strong interest in web development and technology.
-                    I enjoy building websites, learning new programming concepts, and improving my skills through academic and personal projects.
-                    My goal is to gain practical experience, contribute to meaningful projects, and continue growing as a developer.
+                    Hello! I am a student at ADA University, studying Information Technologies. I am passionate about technology, programming, and problem-solving. I enjoy writing code and learning how software systems work. In my free time, I play chess, which helps me improve my logical thinking and focus. I am constantly developing my skills and aiming to become a strong software developer.
                 </p>
                 
                 <h2>Background</h2>
                 <p>
-                    I am a junior IT student with an interest in web development and technology.
-                    I have experience building academic and personal projects using modern web technologies and continuously work on improving my technical skills.
-                    I enjoy learning new tools, solving problems, and gaining practical experience through projects and coursework.
+                    I am a junior IT student with a strong interest in web development and technology. I have been interested in programming since 2019 and received my first Python certificate in 2020. My most recent certification was in JavaScript in 2025. I enjoy building websites and working on practical projects that strengthen my skills. As part of my learning journey, I have completed several projects, including a website for lawyer services (lawyer rental/booking platform) and a simple game inspired by Tetris, which I called "Go Go Snake." I am continuously improving my technical abilities through both academic and personal development.
                 </p>
                 
                 <h2>Qualifications</h2>
