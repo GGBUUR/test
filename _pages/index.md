@@ -39,7 +39,7 @@ permalink: /test
                 <a href="https://www.codecademy.com/profiles/rhuseynli25808" target="_blank" class="social-icon" title="Codecademy">
                     <i class="fab fa-code"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/rasul-huseynli-4b4a70396/" target="_blank" class="social-icon" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/rasul-huseynli-b40935404/" target="_blank" class="social-icon" title="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>

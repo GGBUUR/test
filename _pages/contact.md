@@ -53,7 +53,7 @@ permalink: /test/contact/
                         <a href="https://github.com/GGBUUR" target="_blank" class="social-icon-contact">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="https://www.linkedin.com/in/rasul-huseynli-4b4a70396/" target="_blank" class="social-icon-contact">
+                        <a href="https://www.linkedin.com/in/rasul-huseynli-b40935404/" target="_blank" class="social-icon-contact">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
                         <a href="https://www.codecademy.com/profiles/rhuseynli25808" target="_blank" class="social-icon-contact">
