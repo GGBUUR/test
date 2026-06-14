@@ -33,16 +33,16 @@ permalink: /test/about/
             <div class="about-text">
                 <h2>Who I Am</h2>
                 <p>
-                    Hello! I'm a dedicated developer with a passion for creating beautiful and functional web applications. 
-                    My journey in tech started with curiosity and has evolved into a career focused on solving real-world problems 
-                    through innovative solutions.
+                    Hello! I'm an IT student and aspiring developer with a strong interest in web development and technology.
+                    I enjoy building websites, learning new programming concepts, and improving my skills through academic and personal projects.
+                    My goal is to gain practical experience, contribute to meaningful projects, and continue growing as a developer.
                 </p>
                 
                 <h2>Background</h2>
                 <p>
-                    With a strong foundation in computer science and web development, I've worked on diverse projects ranging from 
-                    personal portfolios to complex web applications. I believe in continuous learning and staying updated with the 
-                    latest technologies and best practices in the industry.
+                    I am a junior IT student with an interest in web development and technology.
+                    I have experience building academic and personal projects using modern web technologies and continuously work on improving my technical skills.
+                    I enjoy learning new tools, solving problems, and gaining practical experience through projects and coursework.
                 </p>
                 
                 <h2>Qualifications</h2>
