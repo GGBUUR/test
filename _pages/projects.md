@@ -40,10 +40,9 @@ permalink: /test/projects/
                     </div>
                 </div>
                 <div class="project-content">
-                    <h3>Project 1: Your Project Title</h3>
+                    <h3>Project 1: Logic Gates on Breadboard</h3>
                     <p class="project-description">
-                        Brief description of your first project. Describe what technologies you used, 
-                        what problem it solves, and what you learned from building it.
+                        This project involved building basic logic gates (AND, OR, NOT, NAND, NOR, XOR) using components on a breadboard. It demonstrates how binary inputs are processed in real hardware circuits. The project helped visualize digital logic without simulation and improved my understanding of computer hardware. Through it, I gained hands-on experience with breadboarding and logic circuit design.
                     </p>
                     <div class="project-tags">
                         <span class="tag">How does hardware work</span>
